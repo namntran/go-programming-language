@@ -11,12 +11,12 @@ import (
 	"os"
 )
 
-var palette = []color.Color{color.Green{}, color.Black}
+var palette = []color.Color{color.White, color.Black}
 
 const (
 	whiteIndex = 0 // first colour in palette
 	blackIndex = 1 // next color in palette
-	
+)
 
 func main() {
 	lissajous(os.Stdout)
