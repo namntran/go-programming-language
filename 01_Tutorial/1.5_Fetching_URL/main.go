@@ -7,7 +7,6 @@ import (
 	"net/http"
 	"os"
 )
-
 func main() {
 for_, url := range os.Arg[1:] {
 	resp, err := http.Get(url)
